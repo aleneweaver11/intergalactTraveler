@@ -13,10 +13,11 @@
 		F7DE030725406B590098B00F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7DE030525406B590098B00F /* Main.storyboard */; };
 		F7DE030925406B5C0098B00F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7DE030825406B5C0098B00F /* Assets.xcassets */; };
 		F7DE030C25406B5C0098B00F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7DE030A25406B5C0098B00F /* LaunchScreen.storyboard */; };
+		F7DE031425406CA40098B00F /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DE031325406CA40098B00F /* SecondVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F7DE02FC25406B590098B00F /* intergalactTraveler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = intergalactTraveler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7DE02FC25406B590098B00F /* intergalacticTraveler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = intergalacticTraveler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7DE02FF25406B590098B00F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7DE030125406B590098B00F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F7DE030325406B590098B00F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		F7DE030825406B5C0098B00F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7DE030B25406B5C0098B00F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7DE030D25406B5C0098B00F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7DE031325406CA40098B00F /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,7 @@
 		F7DE02FD25406B590098B00F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F7DE02FC25406B590098B00F /* intergalactTraveler.app */,
+				F7DE02FC25406B590098B00F /* intergalacticTraveler.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +61,7 @@
 				F7DE02FF25406B590098B00F /* AppDelegate.swift */,
 				F7DE030125406B590098B00F /* SceneDelegate.swift */,
 				F7DE030325406B590098B00F /* ViewController.swift */,
+				F7DE031325406CA40098B00F /* SecondVC.swift */,
 				F7DE030525406B590098B00F /* Main.storyboard */,
 				F7DE030825406B5C0098B00F /* Assets.xcassets */,
 				F7DE030A25406B5C0098B00F /* LaunchScreen.storyboard */,
@@ -70,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F7DE02FB25406B590098B00F /* intergalactTraveler */ = {
+		F7DE02FB25406B590098B00F /* intergalacticTraveler */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7DE031025406B5C0098B00F /* Build configuration list for PBXNativeTarget "intergalactTraveler" */;
+			buildConfigurationList = F7DE031025406B5C0098B00F /* Build configuration list for PBXNativeTarget "intergalacticTraveler" */;
 			buildPhases = (
 				F7DE02F825406B590098B00F /* Sources */,
 				F7DE02F925406B590098B00F /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = intergalactTraveler;
+			name = intergalacticTraveler;
 			productName = intergalactTraveler;
-			productReference = F7DE02FC25406B590098B00F /* intergalactTraveler.app */;
+			productReference = F7DE02FC25406B590098B00F /* intergalacticTraveler.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F7DE02F725406B590098B00F /* Build configuration list for PBXProject "intergalactTraveler" */;
+			buildConfigurationList = F7DE02F725406B590098B00F /* Build configuration list for PBXProject "intergalacticTraveler" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F7DE02FB25406B590098B00F /* intergalactTraveler */,
+				F7DE02FB25406B590098B00F /* intergalacticTraveler */,
 			);
 		};
 /* End PBXProject section */
@@ -140,6 +143,7 @@
 			files = (
 				F7DE030425406B590098B00F /* ViewController.swift in Sources */,
 				F7DE030025406B590098B00F /* AppDelegate.swift in Sources */,
+				F7DE031425406CA40098B00F /* SecondVC.swift in Sources */,
 				F7DE030225406B590098B00F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F7DE02F725406B590098B00F /* Build configuration list for PBXProject "intergalactTraveler" */ = {
+		F7DE02F725406B590098B00F /* Build configuration list for PBXProject "intergalacticTraveler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7DE030E25406B5C0098B00F /* Debug */,
@@ -326,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7DE031025406B5C0098B00F /* Build configuration list for PBXNativeTarget "intergalactTraveler" */ = {
+		F7DE031025406B5C0098B00F /* Build configuration list for PBXNativeTarget "intergalacticTraveler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7DE031125406B5C0098B00F /* Debug */,
