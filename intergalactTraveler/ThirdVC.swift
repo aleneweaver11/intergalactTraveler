@@ -1,5 +1,5 @@
 //
-//  SecondVC.swift
+//  ThirdVC.swift
 //  intergalacticTraveler
 //
 //  Created by  on 10/21/20.
@@ -8,19 +8,10 @@
 
 import UIKit
 
-class SecondVC: UIViewController {
-    @IBOutlet weak var myimageView: UIImageView!
-    @IBOutlet weak var myLabel: UILabel!
-    
-    var myText = "Aubrey"
-    var myImage = UIImage()
+class ThirdVC: UIViewController {
 
-    override func viewDidLoad()
-    {
+    override func viewDidLoad() {
         super.viewDidLoad()
-        
-        myimageView.image = myImage
-        myLabel.text = myText
 
         // Do any additional setup after loading the view.
     }
